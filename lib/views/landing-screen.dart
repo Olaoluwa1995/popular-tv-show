@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:popular_tv_show/config/size-config.dart';
-import 'package:popular_tv_show/constants/app-fonts.dart';
+import 'package:popular_tv_show/constants/app-text-styles.dart';
 
 class LandingScreen extends StatefulWidget {
   LandingScreen({Key? key}) : super(key: key);
@@ -32,7 +32,7 @@ class _LandingScreenState extends State<LandingScreen> {
             children: [
               Text(
                 'Watch the most popular and super amazing TV shows', 
-                style: AppFonts.whiteText,
+                style: AppTextStyles.whiteText,
                 textAlign: TextAlign.center,
               ),
               SizedBox(
@@ -50,7 +50,7 @@ class _LandingScreenState extends State<LandingScreen> {
                   child: Center(
                     child: Text(
                       'Get Started',
-                      style: AppFonts.buttonText,
+                      style: AppTextStyles.buttonText,
                     ),
                   )
                 ),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:popular_tv_show/config/size-config.dart';
 
-class AppFonts {
+class AppTextStyles {
   static final buttonText = TextStyle(
     fontSize: SizeConfig.textMultiplier * 2.4,
     fontWeight: FontWeight.w800,
